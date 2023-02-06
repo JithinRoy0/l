@@ -1,0 +1,19 @@
+hdfs dfs -mkdir /user/<username>/mydir  -  creating a directory on HDFS in home directory
+
+hdfs dfs -mkdir /home/directory1 /home/directory2  -  create two directories in a single command in home directory. 
+
+List the directories created in HDFS.   -  List the directories created in HDFS.
+
+hdfs dfs -touchz /path/to/directory/sample.txt -  Create a sample text file in any of the directories created above.
+
+hdfs dfs -copyFromLocal /path/to/local/file.txt /path/to/directory/  -  Copy file/files from local file system to one of the directories created on HDFS.
+
+hdfs dfs -test -e /path/to/directory/file.txt  -  to verify the file upload in hdfs 
+
+hdfs dfs -copyToLocal /path/to/directory/file.txt /path/to/local/  -  to copy a file from the hdfs to the local file system
+
+hdfs dfs -cp /path/to/source/file.txt /path/to/destination/new-file.txt  -  to Copy the file from one directory to another directory in HDFS.
+
+hdfs dfs -mv /path/to/source/file.txt /path/to/destination/new-file.txt  - to Move the file from one directory to another directory in HDFS.
+
+hdfs dfs -copyFromLocal /path/to/local/file.txt /path/to/directory/  -  Copy a file from/To Local file system to HDFS.   
