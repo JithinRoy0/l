@@ -28,8 +28,7 @@ print(x)
 
 #melting and casting
 
-a=data.frame(a=c(1,2,3),b=c(11,22,33),c=c(111,222,333),d=c(1111,22
-                                                           22,3333))
+a=data.frame(a=c(1,2,3),b=c(11,22,33),c=c(111,222,333),d=c(1111,2222,3333))
 print(a)
 m=melt(a,id=c("a","b"))
 print(m)
